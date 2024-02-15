@@ -1,0 +1,31 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+body {
+    font-size: 14px;
+    margin: 1pt;
+    color: #000000;
+    background-color: #2d2665;
+}
+
+input[type="text"] { 
+    border-top: 1px dotted #2b6eb1; 
+    border-right: 2px dotted #494242; 
+    border-bottom: 2px solid #494242; 
+    border-left: 1px solid #5b9cde; 
+    border-radius: 7px; 
+} 
+
+.contact form { 
+    border-top: 1px dotted #2b6eb1; 
+    border-right: 2px dotted #494242; 
+    border-bottom: 2px solid #494242; 
+    border-left: 1px solid #5b9cde; 
+    border-radius: 7px; 
+} 
+
+#contact{ 
+    background-color: #700d0d; 
+}

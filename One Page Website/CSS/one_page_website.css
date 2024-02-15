@@ -1,0 +1,75 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+body {
+    font-size: 14px;
+    margin: 1pt;
+    color: #ffffff;
+    background-color: #1b1165;
+}
+
+input[type="text"] { 
+    border-top: 1px dotted #2b6eb1; 
+    border-right: 2px dotted #494242; 
+    border-bottom: 2px solid #494242; 
+    border-left: 1px solid #5b9cde; 
+    border-radius: 7px; 
+    width: 2px;
+    margin: 1pt;
+} 
+
+.contact form { 
+    border-top: 1px dotted #2b6eb1; 
+    border-right: 2px dotted #494242; 
+    border-bottom: 2px solid #494242; 
+    border-left: 1px solid #5b9cde; 
+    border-radius: 7px; 
+} 
+
+#contact{ 
+    background-color: #4544a2; 
+}
+
+/* Lightbox Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content {
+    text-align: center;
+    margin: 15% auto;
+}
+
+#lightboxImage {
+    width: 80%;
+    max-width: 800px;
+}
+
+.close {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    cursor: pointer;
+}
+
+/* Additional style for the shadowbox effect */
+.shadowbox {
+    transition: transform 0.3s;
+}
+
+.shadowbox:hover {
+    transform: scale(1.1);
+}
